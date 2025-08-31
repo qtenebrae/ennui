@@ -1,5 +1,4 @@
-import '../../public/styles/globals.css';
-import '../../public/styles/vars.css';
+import '../public/styles/main.scss';
 
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
@@ -11,8 +10,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-    title: 'Ennui',
-    description: 'Ennui...',
+    title: 'Nagi',
+    description: 'Nagi...',
 };
 
 export default function RootLayout({
