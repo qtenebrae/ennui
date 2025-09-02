@@ -13,8 +13,7 @@
     "motion": "^12.23.12",
     "next": "15.3.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "sass": "^1.91.0"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -27,6 +26,7 @@
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.3",
     "prettier": "^3.5.3",
-    "typescript": "^5"
+    "typescript": "^5",
+    "sass": "^1.91.0"
   }
 }
