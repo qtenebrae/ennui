@@ -1,9 +1,10 @@
 import '../public/styles/main.scss';
 import styles from './layout.module.scss';
 
+import React from 'react';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
-import React from 'react';
+
 import { Header, Navigation } from '@/widgets';
 
 const montserrat = Montserrat({
