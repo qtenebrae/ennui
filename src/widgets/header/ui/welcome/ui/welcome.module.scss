@@ -1,0 +1,18 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  height: 100%;
+
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.secondary {
+  color: rgba($white, 0.7);
+  font-size: 2.25rem;
+  font-weight: 500;
+}

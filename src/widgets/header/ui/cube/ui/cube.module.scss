@@ -1,0 +1,50 @@
+$side-length: 32rem;
+$apothem: calc($side-length / var(--apothem-divider));
+
+.cube {
+  position: absolute;
+
+  width: $side-length;
+  height: $side-length;
+
+  transform-style: preserve-3d;
+
+  @include element(side) {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    font-size: 144px;
+
+    background-color: rgba($white, 0.5);
+    opacity: 0.2;
+  }
+}
+
+.front {
+  transform: rotateY(0deg) translateZ($apothem);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ($apothem);
+}
+
+.back {
+  transform: rotateY(180deg) translateZ($apothem);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ($apothem);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ($apothem);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ($apothem);
+}

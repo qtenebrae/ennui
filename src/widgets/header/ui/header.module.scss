@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  padding: 0 0 10svh 0;
+  z-index: -1;
+
+  width: 100%;
+  height: 110svh;
+
+  background: $background-gradient;
+  border-radius: 0 0 32px 32px;
+  overflow: hidden;
+}
+
+.cube {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  z-index: -1;
+}

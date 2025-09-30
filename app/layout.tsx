@@ -1,8 +1,10 @@
 import '../public/styles/main.scss';
+import styles from './layout.module.scss';
 
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import React from 'react';
+import { Header, Navigation } from '@/widgets';
 
 const montserrat = Montserrat({
     variable: '--font-montserrat',
@@ -21,7 +23,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='ru'>
-            <body className={`${montserrat.variable}`}>{children}</body>
+            <body className={montserrat.variable}>
+                <Navigation className={styles.navigation} />
+                <Header />
+                <main>{children}</main>
+            </body>
         </html>
     );
 }
