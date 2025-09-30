@@ -1,0 +1,17 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  width: 100%;
+
+  @include element(head) {
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
+
+  @include element(tabs) {
+    width: 100%;
+  }
+}
+
