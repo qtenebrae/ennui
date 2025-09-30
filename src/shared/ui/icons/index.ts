@@ -1,0 +1,10 @@
+export { TelegramIcon } from './telegram-icon';
+export { HtmlIcon } from './html-icon';
+export { CssIcon } from './css-icon';
+export { SassIcon } from './sass-icon';
+export { FigmaIcon } from './figma-icon';
+export { TailwindIcon } from './tailwind-icon';
+export { ReactIcon } from './react-icon';
+export { ReduxIcon } from './redux-icon';
+export { TanstackIcon } from './tanstack-icon';
+export { ChartIcon } from './chart-icon';
