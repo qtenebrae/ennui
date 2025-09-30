@@ -1,6 +1,3 @@
-@import 'variables';
-@import 'mixins';
-
 html,
 body {
   max-width: 100vw;
@@ -10,9 +7,11 @@ body {
 }
 
 body {
-  color: $color;
-  background: $background;
+  color: $font-color;
+  background: $foreground;
   font-family: $font-montserrat, sans-serif;
+
+  height: 400vh;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

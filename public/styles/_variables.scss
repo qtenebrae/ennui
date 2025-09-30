@@ -1,4 +1,14 @@
-$background: #d7ffff;
-$color: #120907;
+$background: #0992C7;
+$foreground: #151B18;
+
+$black: #0c120f;
+$white: #edffff;
+
+$blue-100: #c7ffff;
+$blue-800: #0E4C78;
+
+$background-gradient: linear-gradient(90deg, $background, $blue-800);
+
+$font-color: #edffff;
 
 $font-montserrat: 'Montserrat', sans-serif;

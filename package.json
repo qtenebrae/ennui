@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-navigation-menu": "^1.2.14",
+    "@radix-ui/react-tabs": "^1.1.13",
     "classnames": "^2.5.1",
     "motion": "^12.23.12",
     "next": "15.3.2",
@@ -26,7 +28,7 @@
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.3",
     "prettier": "^3.5.3",
-    "typescript": "^5",
-    "sass": "^1.91.0"
+    "sass": "^1.91.0",
+    "typescript": "^5"
   }
 }
