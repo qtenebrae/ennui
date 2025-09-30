@@ -1,1 +1,1 @@
-export { Skills } from './ui/skills';
+export { SkillsSection } from './ui/skills-section';

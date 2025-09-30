@@ -1,1 +1,1 @@
-export { SkillsTabs } from './ui/tabs';
+export { Tabs } from './ui/tabs';
